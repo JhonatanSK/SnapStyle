@@ -9,19 +9,25 @@
     margin: 0;
 }
 
-/* rgba(0, 0, 0, 0.692) */
 .topbar__menu{
     background-color: var(--primary-color);
     padding: 10px 25px;
     display: flex;
     justify-content: space-between;
+
+    a svg{
+        width: 250px;
+        height: 25px;
+        cursor: pointer;
+    }
 }
 
-.topbar__menu p {
-    margin: 0;
-    font-size: 1.5em;
-    color: var(--text-color);
-    font-family: 'Roboto', sans-serif;
+.topbar__icons {
+    display: flex;
+    
+    svg{
+        cursor: pointer;
+    }
 }
 
 .topbar__icons *:first-child {
